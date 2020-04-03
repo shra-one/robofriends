@@ -1,0 +1,29 @@
+.card {
+  border:1px solid #ccc;
+  padding:20px;
+  display: flex;
+  flex-flow: column wrap;
+  background:lightblue;
+  align-items:flex-start;
+
+}
+
+.card img {
+  flex:0 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.cardlists {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+  grid-gap:20px;
+  max-width: 1100px;
+  margin:30px auto;
+}
+
+.canvas {
+  max-height: 600px;
+  overflow-y:auto;
+  border:1px solid black;
+}
